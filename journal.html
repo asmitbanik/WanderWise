@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal - WanderWise 🦝</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WanderWise 🦝</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="checklist.html">Checklist</a>
+            <a href="categories.html">Categories</a>
+            <a href="journal.html">Journal</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Travel Experiences</h2>
+        <form id="journal-form">
+            <label for="subject">Subject:</label>
+            <input id="subject" name="subject" placeholder="Subject" type="text">
+                
+            <br><br>
+            <textarea id="journal-entry" placeholder="Write about your travels..."></textarea>
+            <br>
+            <button type="button" onclick="saveJournal()">Save Entry</button>
+        </form>
+        <div id="journal-entries">
+            <!-- Journal entries will be displayed here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Bucket List. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

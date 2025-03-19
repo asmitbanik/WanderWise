@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bucket List - WanderWise 🦝</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WanderWise 🦝</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="checklist.html">Checklist</a>
+            <a href="categories.html">Categories</a>
+            <a href="journal.html">Journal</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Travel Bucket List</h2>
+        <ul id="bucket-list"></ul>
+        <input type="text" id="new-item" placeholder="Add a new destination...">
+        <button onclick="addItem()">➕ Add</button>
+        <button onclick="clearList()">🗑 Clear List</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Bucket List. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
